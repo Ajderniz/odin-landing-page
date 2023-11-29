@@ -1,0 +1,162 @@
+
+button {
+	background-color: #3882F6;
+	border-radius: 6px;
+	border-style: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+body > * {
+	flex: 1;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body * .content {
+	width: 800px;
+
+	display: flex;
+}
+
+body header, body footer {
+	background-color: #1F2937;
+}
+body header .content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+body header .content #header-l {
+	color: #F9FAF8;
+	font-size: 24px;
+	font-weight: bold;
+}
+body header .content #header-r {
+	font-size: 18px;
+
+	display: flex;
+	gap: 12px;
+}
+body header .content #header-r a{
+	text-decoration: none;
+	color: #E5E7EB;
+	font-size: 18px;
+}
+body header .content #header-r a:hover{
+	color: gray;
+}
+
+body #sum-cont {
+	background-color: #1F2937;
+}
+body #sum-cont .content {
+	color: #E5E7EB;
+	
+	padding-bottom: 12px;
+
+	display: flex;
+	gap: 12px;
+}
+body #sum-cont .content > * {
+	flex: 1;
+}
+body #sum-cont .content #sum-txt-cont h3 {
+	font-size: 48px;
+	margin: 0;
+}
+body #sum-cont .content img {
+	background-color: gray;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body #random-cont, body #sign-cont {
+	background-color: #F9FAF8;
+}
+body #random-cont .content {
+	flex-direction: column;
+	align-items: center;
+}
+body #random-cont .content h4 {
+	font-size: 36px;
+	color: #1F2937;
+	margin: 0;
+}
+body #random-cont .content #random-img-cont {
+	display: flex;
+	gap: 12px;
+}
+body > #random-cont > .content > #random-img-cont > .img-and-desc {
+	text-align: center;
+}
+body > #random-cont > .content > #random-img-cont > .img-and-desc > p {
+	margin-top: 0;
+}
+body #random-cont .content #random-img-cont .img-and-desc .img-box {
+	border: 3px solid #3882F6;
+	width: 128px;
+	height: 128px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+body #random-cont .content #random-img-cont .img-and-desc p {
+	font-size: 18px;
+	color: #1F2937;
+}
+
+body #quote-cont {
+	background-color: #E5E7EB;
+	color: #1F2937;
+}
+body #quote-cont .content {
+	display: block;
+	padding: 32px;
+}
+body #quote-cont .content #quote {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	margin: 0;
+}
+body #quote-cont #author {
+	font-weight: bold;
+	text-align: right;
+}
+
+body #sign-cont .content {
+	display: block;
+	padding: 32px;
+}
+body #sign-cont .content #sign-box {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding-left: 64px;
+	padding-right: 64px;
+}
+body #sign-cont .content #sign-box {
+	background-color: #3882F6;
+	color: #F9FAF8;
+}
+body #sign-cont .content #sign-box #sign-box-l h5 {
+	font-size: 24px;
+	margin: 0;
+}
+body #sign-cont .content #sign-box button {
+	border: 2px solid #F9FAF8;
+	flex: 1 0 auto;
+}
+
+body footer {
+	color: #E5E7EB;
+}
